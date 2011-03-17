@@ -1,0 +1,12 @@
+sources/opencv/../../out/apps/opencv/android-1.5-arm//libcxcore.a(cxmatrix.o): In function `cvCompleteSymm':sources/opencv/cxcore/src/cxmatrix.cpp:545: multiple definition of `cvCompleteSymm'
+
+
+out/apps/opencv/android-1.5-arm/libcvml.a(ml_inner_functions.o):sources/opencv/ml/src/ml_inner_functions.cpp:371: first defined here
+
+
+/home/account-saw/Dev/android-ndk-1.5_r1/build/prebuilt/linux-x86/arm-eabi-4.2.1/bin/../lib/gcc/arm-eabi/4.2.1/../../../../arm-eabi/bin/ld: Warning: 
+size of symbol `cvCompleteSymm' changed 
+from 588 in out/apps/opencv/android-1.5-arm/libcvml.a(ml_inner_functions.o) 
+to 484 in sources/opencv/../../out/apps/opencv/android-1.5-arm//libcxcore.a(cxmatrix.o)
+
+collect2: ld returned 1 exit status
